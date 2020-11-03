@@ -39,7 +39,7 @@
   width: 388px;
   position: absolute;
   bottom: 30px;
-  margin-left: 64px;
+  left: 64px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -60,8 +60,8 @@
    position: absolute;
    height: 568px;
    width: 568px;
-   margin-top: 64px;
-   right: 0px;
+   top: 64px;
+   right: 0;
    background-color: #2f80ed;
 }
 .description {
