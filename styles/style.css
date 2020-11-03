@@ -141,35 +141,31 @@
 .feynman {
   height: 790px;
   background-color: #f2f2f2;
-  /*display: flex;*/
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 .feynman__title {
-  /*display: flex;*/
   width: 648px;
-  font-size: 120px;
-  font-weight: bold;
-  line-height: 1.15;
-  text-align: center;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  /*left: auto;
-  right: auto;*/
-  border: 1px solid red;
-  /*position: absolute;*/
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  z-index: 1;
 }
 .feynman__subtitle {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
   text-align: center;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid green;
-  /*position: absolute;*/
-  z-index: 2;
+  z-index: 1;
 }
 .feynman__link {
   font-size: 36px;
@@ -185,13 +181,14 @@
   height: 637px;
   background-size: contain;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
 }
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 .theme_dark {
   color: white;
@@ -202,15 +199,14 @@
   margin-right: 0;
   margin-top: 80px;
 }
-/*.kaufman__triangle {
+.kaufman__triangle {
   width: 877px;
   height: 877px;
   right: -210px;
-  border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-  border-bottom: 90px solid #2f80ed;
-}*/
-
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
 .text-color_dark-theme {
   color: white;
 }
