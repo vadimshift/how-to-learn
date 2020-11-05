@@ -24,7 +24,7 @@
       height: 35px;
     }
 
-    .logo_header_place {
+    .header_logo_place {
       position: absolute;
       top: 30px;
       left: 64px;
@@ -82,7 +82,7 @@
       justify-content: center;
     }
 
-    .description__two-columns {
+    .two-columns {
       display: flex;
       width: 80%;
       margin-top: 100px;
@@ -108,14 +108,14 @@
       width: 80%;
     }
 
-    .two-columnns__paragraph {
+    .two-columns__paragraph {
       font-size: 24px;
       font-weight: normal;
       line-height: 34px;
       margin: 0;
       padding-bottom: 30px;
     }
-    .two-columnns__paragraph:last-child {
+    .two-columns__paragraph:last-child {
       padding-bottom: 0;
     }
 
