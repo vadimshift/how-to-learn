@@ -265,17 +265,18 @@
       justify-content: space-between;
     }
 
-    .footer__column_content_copyright {
-      flex-basis: 711px;
+    .footer__column {
       display: flex;
       flex-direction: column;
+    }
+
+    .footer__column_content_copyright {
+      flex-basis: 711px;
       justify-content: space-between;
       color: white;
     }
 
     .footer__column_content_info {
-      display: flex;
-      flex-direction: column;
       color: white;
     }
 
