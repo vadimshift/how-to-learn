@@ -54,7 +54,7 @@
       margin: 0;
     }
 
-    .header__subtitle_link {
+    .header__link {
       text-decoration: none;
       color: #2f80ed;
     }
@@ -135,7 +135,7 @@
       font-weight: bold;
     }
 
-    .section_theme_dark {
+    .section-title_theme_dark {
       color: white;
     }
 
