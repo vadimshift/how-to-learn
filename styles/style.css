@@ -196,7 +196,7 @@
       display: flex;
       flex-direction: column;
       position: relative;
-      padding-top: 100px;
+      padding-top: 80px;
     }
 
     .feynman__title {
@@ -357,6 +357,7 @@
     .cards__item:nth-of-type(3n) {
       margin-right: 0;
     }
+
     .cards__image {
       margin: 0 40px 0 40px;
       box-sizing: border-box;
@@ -395,9 +396,74 @@
     }
 
     .oakley {
-    display: flex;
-    justify-content: center;
-    background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+    }
 
+    .khan {
+      background-color: #f2f2f2;
+    }
 
+    .khan__container {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 105px;
+    }
+
+    .khan__author {
+      line-height: 42px;
+      font-size: 30px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .khan__title {
+      line-height: 1.15;
+      font-size: 60px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .khan__quote {
+      max-width: 790px;
+      line-height: 34px;
+      font-size: 24px;
+      font-weight: normal;
+      margin: 50px 0 0 0;
+    }
+
+    .khan__quote-author {
+      line-height: 1.15;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 36px 0 0 0;
+    }
+
+    .khan__quote-author-subline {
+      line-height: 1.15;
+      font-size: 24px;
+      font-weight: normal;
+      margin: 10px 0 0 0;
+    }
+
+    .khan__book-container {
+      margin-top: 68px;
+      display: flex;
+
+    }
+
+    .khan__book-pic {
+      width: 620px;
+      height: 608px;
+    }
+
+    .khan__buy-link {
+      margin-left: 48px;
+      line-height: 42px;
+      font-size: 30px;
+      font-weight: normal;
+      text-decoration: none;
+      color: #2f80ed;
     }
