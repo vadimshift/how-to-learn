@@ -147,6 +147,7 @@
 
     .section-title_theme_dark {
       color: white;
+      margin-top: 90px;
     }
 
     .section-subtitle {
@@ -164,7 +165,7 @@
 
     .table {
       width: 1100px;
-      margin: 0 auto 100px auto;
+      margin: 0 auto 90px auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -451,7 +452,7 @@
     .khan__book-container {
       margin-top: 68px;
       display: flex;
-
+      align-items: flex-start;
     }
 
     .khan__book-pic {
@@ -460,10 +461,29 @@
     }
 
     .khan__buy-link {
-      margin-left: 48px;
+      margin: 0 0 0 48px;
       line-height: 42px;
       font-size: 30px;
       font-weight: normal;
       text-decoration: none;
       color: #2f80ed;
+    }
+
+    .resources__logo-zone {
+      width: 1100px;
+      margin: 80px auto 217px auto;
+    }
+
+    .resources__logo {
+      width: 270px;
+      height: 38px;
+    }
+
+    .link-opacity {
+      opacity: 1;
+      transition: opacity .4s linear;
+    }
+
+    .link-opacity:hover {
+      opacity: .5;
     }
