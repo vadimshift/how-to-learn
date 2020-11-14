@@ -338,24 +338,66 @@
       width: 80%;
       margin-left: auto;
       margin-right: auto;
-      border: 1px black solid;
     }
+
     .cards {
       width: 920px;
       display: flex;
       flex-wrap: wrap;
-      /*justify-content: space-between;*/
       margin-left: auto;
       margin-right: auto;
-      border: 1px blue solid;
     }
 
     .cards__item {
       width: 240px;
-      border: 1px red solid;
+      margin-right: 100px;
+      margin-top: 60px;
+    }
+
+    .cards__item:nth-of-type(3n) {
+      margin-right: 0;
     }
     .cards__image {
+      margin: 0 40px 0 40px;
+      box-sizing: border-box;
+      border-radius: 50%;
       width: 160px;
       height: 160px;
-      border: 1px green solid;
+    }
+
+    .cards__title {
+      margin: 43px 0 0 0;
+      text-align: center;
+      line-height: 1.15;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .cards__description {
+      margin: 16px 0 0 0;
+      text-align: center;
+      line-height: 23px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .video__iframes {
+      width: 1055px;
+      margin: 50px auto 0 auto;
+    }
+
+    .video__iframe {
+      margin-right: 20px;
+    }
+
+    .video__iframe:nth-of-type(2n) {
+      margin-right: 0px;
+    }
+
+    .oakley {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+
+
     }
