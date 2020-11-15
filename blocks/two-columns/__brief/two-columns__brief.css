@@ -1,0 +1,10 @@
+.two-columns__brief {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+  max-width: 175px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
